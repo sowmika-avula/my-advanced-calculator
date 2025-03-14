@@ -1,0 +1,12 @@
+[MASTER]
+ignore=tests
+disable=
+    missing-docstring,
+    too-few-public-methods,
+    no-member,
+    abstract-method,
+    import-error,
+    attribute-defined-outside-init
+
+[FORMAT]
+max-line-length=120
