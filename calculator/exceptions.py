@@ -9,5 +9,4 @@ class DivisionByZeroError(CalculatorError):
     """Raised when attempting to divide by zero."""
 
     def __init__(self, message="Cannot divide by zero"):
-        super().__init__(message) 
-        
+        super().__init__(message)

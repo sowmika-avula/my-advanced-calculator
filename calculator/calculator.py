@@ -52,4 +52,3 @@ class Calculator:
             return first_number / second_number
         except ZeroDivisionError as error:
             raise ZeroDivisionError("Cannot divide by zero.") from error
-        

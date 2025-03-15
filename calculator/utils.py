@@ -5,4 +5,3 @@ def validate_number(value):
         return True
     except ValueError:
         return False
-    

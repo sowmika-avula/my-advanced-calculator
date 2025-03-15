@@ -11,4 +11,3 @@ def test_division_by_zero_error():
         raise DivisionByZeroError()
     except DivisionByZeroError as e:
         assert str(e) == "Cannot divide by zero"
-        

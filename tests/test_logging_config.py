@@ -13,4 +13,3 @@ def test_logging_config(tmp_path):
     logger = logging.getLogger()
     assert logger.level == logging.DEBUG
     assert len(logger.handlers) == 2  # File + Stream handlers
-    

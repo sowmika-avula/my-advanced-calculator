@@ -21,4 +21,3 @@ def setup_logging():
             logging.StreamHandler(),
         ],
     )
-    

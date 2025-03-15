@@ -45,4 +45,3 @@ class HistoryManager:
         self.clear_history()
         if self.history_file.exists():
             self.history_file.unlink()
-            

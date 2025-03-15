@@ -63,4 +63,3 @@ def test_divide_eafp():
         calc.divide_eafp(5, 0)
     except ZeroDivisionError:
         assert True
-        

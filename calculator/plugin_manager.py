@@ -33,4 +33,3 @@ class PluginManager:
     def get_operation(self, command: str) -> Optional[Callable]:
         """Get the operation for a command."""
         return self.operations.get(command)
-    

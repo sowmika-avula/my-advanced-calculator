@@ -97,4 +97,3 @@ def test_main_entry_point():
             import main
             main.main()
             mock_repl.return_value.cmdloop.assert_called_once()
-            

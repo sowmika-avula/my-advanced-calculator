@@ -15,4 +15,3 @@ def test_validate_number():
     assert validate_number(" ") is False
     assert validate_number("1,000") is False
     assert validate_number("12.34.56") is False
-    

@@ -21,4 +21,3 @@ def test_plugin_loading_error(monkeypatch, capsys):
 
     captured = capsys.readouterr()
     assert "Error loading plugin" in captured.out
-    

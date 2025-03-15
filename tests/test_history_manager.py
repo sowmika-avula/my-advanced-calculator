@@ -47,4 +47,3 @@ def test_save_empty_history():
 
     # Cleanup
     os.remove("history.csv")
-    
