@@ -106,4 +106,3 @@ class CalculatorREPL(cmd.Cmd):
 
 if __name__ == "__main__":
     CalculatorREPL().cmdloop()
-    
